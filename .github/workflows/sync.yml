@@ -3,7 +3,7 @@ name: Upstream Sync
 permissions:
   contents: write
 
-on:
+o1n:
   schedule:
     - cron: "0 0 * * *" # every day
   workflow_dispatch:
